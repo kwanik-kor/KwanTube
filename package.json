@@ -1,0 +1,22 @@
+{
+  "name": "kwantube",
+  "version": "1.0.0",
+  "description": "Cloning Youtube with Vanilla and NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kwanik-kor/KwanTube.git"
+  },
+  "author": "Kwan Ik Jang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kwanik-kor/KwanTube/issues"
+  },
+  "homepage": "https://github.com/kwanik-kor/KwanTube#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
