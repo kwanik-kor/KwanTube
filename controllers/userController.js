@@ -13,13 +13,18 @@ export const postJoin = (req, res) => {
         res.render("join", { pageTitle: "Join" });
     } else {
         // To do: register user
-        // To do: 
+        // To do: Log user in
         res.redirect(routes.home);
     }
     
 }
 
-export const login = (req, res) => res.render("login", { pageTitle: "Login" });
+export const getLogin = (req, res) => res.render("login", { pageTitle: "Login" });
+export const postLogin = (req, res) => {
+    
+    res.redirect(routes.home);
+}
+
 export const logout = (req, res) => res.render("logout", { pageTitle: "Logout" });
 export const userDetail = (req, res) => res.render("userDetail", { pageTitle: "User Detail" });
 export const editProfile = (req, res) => res.render("editProfile", { pageTitle: "Edit Profile" });
